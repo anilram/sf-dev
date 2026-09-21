@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Messaging Queue</name>
+    <queueMembers>
+        <users>
+            <user>00@add.com</user>
+            <user>00@amod.com</user>
+            <user>anilram.l@dev.com</user>
+            <user>integration@00ddm0000052ponuaq.com</user>
+            <user>insightssecurity@00ddm0000052ponuaq.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

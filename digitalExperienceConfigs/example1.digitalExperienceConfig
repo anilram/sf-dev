@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>example</label>
+    <site>
+        <urlPathPrefix>example</urlPathPrefix>
+    </site>
+    <space>site/example1</space>
+</DigitalExperienceConfig>

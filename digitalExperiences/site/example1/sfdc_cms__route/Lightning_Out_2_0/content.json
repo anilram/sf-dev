@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Lightning Out 2.0 Container",
+  "contentBody" : {
+    "activeViewId" : "lightningOut2",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "lightningOut2",
+    "urlPrefix" : "lightning-out"
+  },
+  "urlName" : "lightning-out-2-0-container"
+}

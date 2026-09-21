@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConversationMessageDefinition xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <constants>
+        <compositeValues>
+            <constantItems>
+                <constantType>Title</constantType>
+                <primitiveValues>
+                    <textValue>init option 1</textValue>
+                    <type>Text</type>
+                </primitiveValues>
+            </constantItems>
+            <identifier>338e9cb5-50a2-7f5c-60f9-f8af2995e36e</identifier>
+        </compositeValues>
+        <compositeValues>
+            <constantItems>
+                <constantType>Title</constantType>
+                <primitiveValues>
+                    <textValue>init option 2</textValue>
+                    <type>Text</type>
+                </primitiveValues>
+            </constantItems>
+            <identifier>7771018f-b951-ffaf-a8ca-7d1006196fbd</identifier>
+        </compositeValues>
+        <constantType>Options</constantType>
+    </constants>
+    <constants>
+        <constantType>Title</constantType>
+        <primitiveValues>
+            <textValue>init question</textValue>
+            <type>Text</type>
+        </primitiveValues>
+    </constants>
+    <description>ii</description>
+    <label>init</label>
+    <language>en_US</language>
+    <messageLayouts>
+        <formatType>Text</formatType>
+        <layoutItems>
+            <collectionType>None</collectionType>
+            <name>text</name>
+            <primitiveValues>
+                <formulaTemplate>hi {!$Constants.Title}
+
+Select an option:
+
+{!$ListTemplates.OptionsList}</formulaTemplate>
+                <mergeFields>
+                    <formulaTemplate>{!$ListItem.Index}. {!$ListItem.Value.Title}{!BR()}</formulaTemplate>
+                    <mergeFieldType>ListTemplate</mergeFieldType>
+                    <name>OptionsList</name>
+                    <valueSourceReference>Constants.Options</valueSourceReference>
+                </mergeFields>
+                <type>FormulaTemplate</type>
+            </primitiveValues>
+        </layoutItems>
+        <layoutVariant xsi:nil="true"/>
+        <messageType>StaticContent</messageType>
+    </messageLayouts>
+    <type>Picklist</type>
+</ConversationMessageDefinition>

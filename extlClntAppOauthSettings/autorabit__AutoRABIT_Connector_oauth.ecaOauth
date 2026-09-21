@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Api, RefreshToken</commaSeparatedOauthScopes>
+    <externalClientApplication>autorabit__AutoRABIT_Connector</externalClientApplication>
+    <isFirstPartyAppEnabled>false</isFirstPartyAppEnabled>
+    <label>AutoRABIT_Connector_oauth</label>
+    <oauthLink>00Dal00001MRR3q:888al000001x0cv</oauthLink>
+</ExtlClntAppOauthSettings>

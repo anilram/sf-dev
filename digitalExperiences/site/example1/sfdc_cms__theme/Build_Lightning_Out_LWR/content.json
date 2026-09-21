@@ -1,0 +1,19 @@
+{
+  "type" : "sfdc_cms__theme",
+  "title" : "Build Lightning Out (LWR)",
+  "contentBody" : {
+    "activeBrandingSetId" : "Build_Lightning_Out_LWR",
+    "definitionName" : "lightningout",
+    "layouts" : [ {
+      "layoutId" : "snaThemeLayout",
+      "layoutType" : "ServiceNotAvailable"
+    }, {
+      "layoutId" : "scopedHeaderAndFooter",
+      "layoutType" : "Inner"
+    }, {
+      "layoutId" : "lightningOutFullPage",
+      "layoutType" : "LightningOutFullPage"
+    } ]
+  },
+  "urlName" : "build-lightning-out-lwr"
+}

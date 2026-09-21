@@ -1,0 +1,137 @@
+<template>
+    <lightning-card title={cardTitle} class="slds-card">
+        <div class="slds-p-horizontal_medium slds-p-vertical_small">
+            <div class="slds-grid slds-wrap slds-gutters">
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_2-of-3">
+                    <lightning-input type="text"
+                                     label="Object API Name"
+                                     value={objectName}
+                                     onchange={handleObjectNameChange}
+                                     placeholder="e.g., Account"
+                                     class="slds-m-bottom_small">
+                    </lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-align_absolute-center">
+                    <lightning-button variant="brand"
+                                      label="Load"
+                                      title="Load"
+                                      onclick={handleLoad}
+                                      disabled={isLoadDisabled}
+                                      class="slds-m-top_large">
+                    </lightning-button>
+                </div>
+            </div>
+        </div>
+
+        <template if:true={columns.length}>
+            <div class="slds-p-horizontal_medium slds-m-bottom_small slds-grid slds-wrap slds-gutters">
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                    <div class="slds-text-body_small">
+                        Page {pageNumber} of {pageCount} • {totalRecords} total
+                    </div>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-text-align_right">
+                    <lightning-button-group>
+                        <lightning-button-icon icon-name="utility:chevronleft"
+                                               variant="border"
+                                               alternative-text="Previous"
+                                               title="Previous"
+                                               onclick={handlePrev}
+                                               disabled={isPrevDisabled}>
+                        </lightning-button-icon>
+                        <lightning-button-icon icon-name="utility:chevronright"
+                                               variant="border"
+                                               alternative-text="Next"
+                                               title="Next"
+                                               onclick={handleNext}
+                                               disabled={isNextDisabled}>
+                        </lightning-button-icon>
+                    </lightning-button-group>
+                </div>
+            </div>
+
+            <!-- Column filter trigger toolbar -->
+            <div class="slds-p-horizontal_medium slds-m-bottom_x-small">
+                <div class="slds-grid slds-wrap slds-gutters_small">
+                    <div class="slds-col slds-size_1-of-1">
+                        <lightning-layout vertical-align="center">
+                            <lightning-layout-item flexibility="auto" padding="around-small">
+                                <lightning-combobox
+                                    name="filterField"
+                                    label="Filter Field"
+                                    value={filter.field}
+                                    placeholder="Select a field to filter"
+                                    options={filterFieldOptions}
+                                    onchange={handleFilterFieldPick}>
+                                </lightning-combobox>
+                            </lightning-layout-item>
+                            <lightning-layout-item flexibility="shrink" padding="around-small">
+                                <lightning-button label="Open Filter" variant="neutral" onclick={openFilter}></lightning-button>
+                            </lightning-layout-item>
+                            <lightning-layout-item flexibility="shrink" padding="around-small">
+                                <lightning-button label="Clear Filter" variant="destructive-text" onclick={clearFilter}></lightning-button>
+                            </lightning-layout-item>
+                        </lightning-layout>
+                    </div>
+                </div>
+            </div>
+
+            <lightning-datatable key-field="Id"
+                                 data={pageData}
+                                 columns={columns}
+                                 sorted-by={sortedBy}
+                                 sorted-direction={sortedDirection}
+                                 onsort={handleSort}
+                                 hide-checkbox-column
+                                 show-row-number-column
+                                 class="slds-p-horizontal_medium">
+            </lightning-datatable>
+        </template>
+
+        <template if:true={isLoading}>
+            <div class="slds-is-relative slds-p-around_large">
+                <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+            </div>
+        </template>
+
+        <template if:true={errorMessage}>
+            <div class="slds-p-horizontal_medium slds-p-vertical_small">
+                <div class="slds-text-color_error">{errorMessage}</div>
+            </div>
+        </template>
+    </lightning-card>
+
+    <!-- Simple filter popover -->
+    <template if:true={showFilter}>
+        <section class="slds-popover slds-nubbin_top-left filter-popover" role="dialog" aria-label="Filter">
+            <button class="slds-button slds-button_icon slds-float_right" title="Close" onclick={closeFilter}>
+                <lightning-icon icon-name="utility:close" size="x-small"></lightning-icon>
+            </button>
+            <div class="slds-popover__body">
+                <div class="slds-form slds-form_stacked">
+                    <div class="slds-form-element slds-m-bottom_small">
+                        <label class="slds-form-element__label" for="operator">Operator</label>
+                        <div class="slds-form-element__control">
+                            <lightning-combobox name="operator"
+                                                value={filter.operator}
+                                                placeholder="Select Operator"
+                                                options={operatorOptions}
+                                                onchange={handleOperatorChange}>
+                            </lightning-combobox>
+                        </div>
+                    </div>
+                    <div class="slds-form-element slds-m-bottom_small">
+                        <label class="slds-form-element__label" for="value">Value</label>
+                        <div class="slds-form-element__control">
+                            <lightning-input type="text" value={filter.value} onchange={handleFilterValueChange}></lightning-input>
+                        </div>
+                    </div>
+                    <div class="slds-form-element slds-m-top_small slds-text-align_right">
+                        <lightning-button variant="neutral" label="Clear" onclick={clearFilter}></lightning-button>
+                        <lightning-button class="slds-m-left_small" variant="brand" label="Apply" onclick={applyFilter}></lightning-button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</template>
