@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AppliedAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>CreditReference</fullName>
+    </fields>
+    <fields>
+        <fullName>CreditType</fullName>
+    </fields>
+    <fields>
+        <fullName>LastFour</fullName>
+    </fields>
+    <fields>
+        <fullName>WebCartId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

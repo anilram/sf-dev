@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CRMforNonProfit__Call_Attempt_Result__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Call Attempt Result</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Call Attempt Success</fullName>
+                    <default>false</default>
+                    <label>Call Attempt Success</label>
+                </value>
+                <value>
+                    <fullName>Wrong Number</fullName>
+                    <default>false</default>
+                    <label>Wrong Number</label>
+                </value>
+                <value>
+                    <fullName>Call Attempt Failed</fullName>
+                    <default>false</default>
+                    <label>Call Attempt Failed</label>
+                </value>
+                <value>
+                    <fullName>Call Attempts Limit Reached</fullName>
+                    <default>false</default>
+                    <label>Call Attempts Limit Reached</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Call_Result__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Call Result</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Regular Donation</fullName>
+                    <default>false</default>
+                    <label>Regular Donation</label>
+                </value>
+                <value>
+                    <fullName>One-Off Donation</fullName>
+                    <default>false</default>
+                    <label>One-Off Donation</label>
+                </value>
+                <value>
+                    <fullName>Not Decided</fullName>
+                    <default>false</default>
+                    <label>Not Decided</label>
+                </value>
+                <value>
+                    <fullName>Declined</fullName>
+                    <default>false</default>
+                    <label>Declined</label>
+                </value>
+                <value>
+                    <fullName>Welcomed</fullName>
+                    <default>false</default>
+                    <label>Welcomed</label>
+                </value>
+                <value>
+                    <fullName>Call Later</fullName>
+                    <default>false</default>
+                    <label>Call Later</label>
+                </value>
+                <value>
+                    <fullName>Donor Already</fullName>
+                    <default>false</default>
+                    <label>Donor Already</label>
+                </value>
+                <value>
+                    <fullName>Upgrade</fullName>
+                    <default>false</default>
+                    <label>Upgrade</label>
+                </value>
+                <value>
+                    <fullName>Regular Renewal</fullName>
+                    <default>false</default>
+                    <label>Regular Renewal</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Call Later Limit Reached</fullName>
+                    <default>false</default>
+                    <label>Call Later Limit Reached</label>
+                </value>
+                <value>
+                    <fullName>Re-Welcomed</fullName>
+                    <default>false</default>
+                    <label>Re-Welcomed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Email_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Email Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Queued</fullName>
+                    <default>false</default>
+                    <label>Queued</label>
+                </value>
+                <value>
+                    <fullName>Error</fullName>
+                    <default>false</default>
+                    <label>Error</label>
+                </value>
+                <value>
+                    <fullName>Sent</fullName>
+                    <default>false</default>
+                    <label>Sent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Locked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Locked</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Reject_Reason_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reject Reason - Description</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Reject_Reason__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reject Reason</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No money</fullName>
+                    <default>false</default>
+                    <label>No money</label>
+                </value>
+                <value>
+                    <fullName>Don&apos;t send emails</fullName>
+                    <default>false</default>
+                    <label>Don&apos;t send emails</label>
+                </value>
+                <value>
+                    <fullName>Don&apos;t call</fullName>
+                    <default>false</default>
+                    <label>Don&apos;t call</label>
+                </value>
+                <value>
+                    <fullName>Don&apos;t send emails &amp; Don&apos;t call</fullName>
+                    <default>false</default>
+                    <label>Don&apos;t send emails &amp; Don&apos;t call</label>
+                </value>
+                <value>
+                    <fullName>Other reason</fullName>
+                    <default>false</default>
+                    <label>Other reason</label>
+                </value>
+                <value>
+                    <fullName>Retired</fullName>
+                    <default>false</default>
+                    <label>Retired</label>
+                </value>
+                <value>
+                    <fullName>Postponed</fullName>
+                    <default>false</default>
+                    <label>Postponed</label>
+                </value>
+                <value>
+                    <fullName>Doesn&apos;t want to</fullName>
+                    <default>false</default>
+                    <label>Doesn&apos;t want to</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__TLF_Agent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>TLF Agent</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Jméno agenta</fullName>
+                    <default>false</default>
+                    <label>Jméno agenta</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__TLF_Attempt_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <label>TLF Attempt Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__TLF_Last_Attempt__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>TLF Last Attempt</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Campaign_Members</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Variable__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Variable</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>City</fullName>
+    </fields>
+    <fields>
+        <fullName>CompanyOrAccount</fullName>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Country</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstName</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstRespondedDate</fullName>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+    </fields>
+    <fields>
+        <fullName>HasResponded</fullName>
+    </fields>
+    <fields>
+        <fullName>LastName</fullName>
+    </fields>
+    <fields>
+        <fullName>LeadId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>PostalCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Salutation</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>State</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Street</fullName>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+    </fields>
+    <sharingModel>ControlledByCampaign</sharingModel>
+</CustomObject>

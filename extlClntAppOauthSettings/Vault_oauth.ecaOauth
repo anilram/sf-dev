@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Basic, Api, Web, Full, Chatter, CustomApplications, RefreshToken, OpenID, CustomPermissions, Wave, Eclair, Pardot, Lightning, Content, CDPIngest, CDPProfile, CDPQuery, Chatbot, CDPSegment, CDPIdentityResolution, ForgotPassword, CDPCalculatedInsight, UserRegistration, SFApiPlatform, Interaction, CDP, EinsteinGPT, PwdlessLogin, MCP, SCRT</commaSeparatedOauthScopes>
+    <externalClientApplication>Vault</externalClientApplication>
+    <isFirstPartyAppEnabled>false</isFirstPartyAppEnabled>
+    <label>Vault_oauth</label>
+    <oauthLink>00DdM0000052poN:888dM0000011w9R</oauthLink>
+</ExtlClntAppOauthSettings>

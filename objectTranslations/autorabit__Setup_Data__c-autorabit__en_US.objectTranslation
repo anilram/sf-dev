@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Setup Data</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Setup Data</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>autorabit__Access_Token_Expires_At__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Access_Token__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Debug_Enabled__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Inbound_Authenticated_User__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>autorabit__Job_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Every 12 Hours</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 2 Hours</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 3 Hours</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 4 Hours</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 6 Hours</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 8 Hours</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Hour</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Once Daily</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>autorabit__Job_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Job_Start_Time__c</name>
+        <picklistValues>
+            <masterLabel>10:00 AM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:00 PM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 AM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 PM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 AM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 PM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00 AM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00 PM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 AM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 PM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 AM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 PM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 AM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 PM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:00 AM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:00 PM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 AM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 PM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 AM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 PM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 AM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 PM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 AM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 PM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Soon As Possible</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Log_Deletion_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Logging_Enabled__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Max_Logs_Retained__c</name>
+        <picklistValues>
+            <masterLabel>1,000</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10,000</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5,000</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Outbound_Authenticated_User__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__QA_Enabled__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Salesforce_Access_Token__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

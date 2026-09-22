@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppConfigurablePolicies xmlns="http://soap.sforce.com/2006/04/metadata">
+    <externalClientApplication>autorabit__AutoRABIT_Connector</externalClientApplication>
+    <isEnabled>true</isEnabled>
+    <isOauthPluginEnabled>true</isOauthPluginEnabled>
+    <label>AutoRABIT_Connector_defaultPolicy</label>
+    <startPage>None</startPage>
+</ExtlClntAppConfigurablePolicies>

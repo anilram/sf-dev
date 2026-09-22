@@ -1,0 +1,13 @@
+<!-- -----------------------------------------------------------
+Author:        Tadeas Brzak
+Company:       AspectWorks
+Description:   page used to generate html into PDF
+
+History
+<Date>      <Authors Name>      <Brief Description of Change>
+4/6/2018     Tadeas Brzak        Initial version
+---------------------------------------------------------------- -->
+
+<apex:page renderAs="pdf" applyHtmlTag="false" showHeader="false" controller="CRMforNonProfit.PDFGeneratorController">
+    <apex:outputText escape="false" value="{!html}"></apex:outputText>
+</apex:page>

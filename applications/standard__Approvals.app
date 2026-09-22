@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Approvals</label>
+    <navType>Console</navType>
+    <tabs>standard-ApprovalsHome</tabs>
+    <tabs>Movie__c</tabs>
+    <tabs>TestEmail__c</tabs>
+    <tabs>Actor__c</tabs>
+    <tabs>Weather__c</tabs>
+    <uiType>Lightning</uiType>
+    <workspaceConfig>
+        <mappings>
+            <tab>Actor__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Movie__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TestEmail__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Weather__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-ApprovalsHome</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CRMforNonProfit__Captcha_Secret__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Add secret to Google Recaptcha API</inlineHelpText>
+        <label>Captcha Secret</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Captcha_Site_Key__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Please insert site key from google for reCaptcha</inlineHelpText>
+        <label>Captcha Site Key</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Captcha_Verify_Endpoint__c</fullName>
+        <defaultValue>&apos;https://www.google.com/recaptcha/api/siteverify&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>A link to Google verify captcha API.</inlineHelpText>
+        <label>Captcha Verify Endpoint</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Certificate_End_Day__c</fullName>
+        <defaultValue>&apos;31.12&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter day of the last transaction in a calendar year (e.g. 13.12 if the certificate should contain transactions to (&lt;=) 12th December. of the selected year, format DD.MM)</inlineHelpText>
+        <label>Certificate End Day</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Certificate_Start_Day__c</fullName>
+        <defaultValue>&apos;1.1&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter day of first transaction in a calendar year (e.g. 1.1 if the certificate should contain transactions from 1st January. of the selected year, format DD.MM)</inlineHelpText>
+        <label>Certificate Start Day</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Change_Request_Queue__c</fullName>
+        <defaultValue>&apos;Data_Change_Request&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>please insert api name of the queue for cases created from self service function</inlineHelpText>
+        <label>Change Request Queue</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Daily_Emails_Limit__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Maximum emails to be sent per day, max. 5.000</inlineHelpText>
+        <label>Daily Emails Limit</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Email_Templates_Folder__c</fullName>
+        <defaultValue>&apos;DEMO_DonorCertificates&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Email Templates Folder</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Manual_Certificate_Send_Queue__c</fullName>
+        <defaultValue>&apos;Send_Certificate_Manually&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>please insert api name of the queue for cases created for certificates that cannot be sent, because there is no email on related contact.</inlineHelpText>
+        <label>Manual Certificate Send Queue</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__PDF_Generator_Public_Site__c</fullName>
+        <deprecated>false</deprecated>
+        <description>generatePdfFromHtml makes callout to the URL defined in &apos;PDF_Generator_Public_Site&apos; + &apos;/apex/PDFGenerator&apos;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>eg: https://hackaton-armadaspasy.cs19.force.com/SelfServiceCertificates</inlineHelpText>
+        <label>PDF Generator Public Site</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__PDF_Templates_Folder__c</fullName>
+        <defaultValue>&apos;DEMO_DonorCertificates&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>PDF Templates Folder</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Store_Pdf_While_Sending_Email__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>While sending email with PDF attachment (from contact record or using batch from home page)
+true = store PDF as file in Salesforce
+false = do not store PDF as file in Salesforce (if contact does not have email =&gt; file saved even in case of false)</description>
+        <label>Store PDF</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Wide_Email_Address__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Please fill in email address of organization wide email address, that you want to you use to send out emails with certifications.</inlineHelpText>
+        <label>Wide Email Address</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Donor Certificates Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

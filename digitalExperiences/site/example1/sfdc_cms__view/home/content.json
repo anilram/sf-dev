@@ -1,0 +1,70 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f6ab7c4b-03c7-4db7-b241-8d551457d8a2\",\"columns\":[{\"UUID\":\"be19a222-a620-49e2-936f-8ac3ed1fc94a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<div style=\"display: flex; justify-content: center; align-items: center; margin: 50px 0; flex-direction: column; text-align: center;\"><div style=\"background-image: url(assets/img/desert.svg) !important; background-size: cover; background-position: center; height: 300px; width: 100%; max-width: 600px; min-width: 300px;\"></div><h1 class=\"slds-text-heading_medium slds-p-bottom_x-small\">Start Building Your Page</h1> <div>Drag and drop a component into the content slots.</div></div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "6901e0b6-5b3e-49dc-8292-907bf087b793",
+              "type" : "component"
+            } ],
+            "id" : "be19a222-a620-49e2-936f-8ac3ed1fc94a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f6ab7c4b-03c7-4db7-b241-8d551457d8a2",
+          "type" : "component"
+        } ],
+        "id" : "cd94ee40-f968-4ed1-a878-a50b57dc6cef",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "0671ed3c-d6a0-4498-9e27-dcd50189e6ee",
+          "type" : "component"
+        } ],
+        "id" : "742d2af2-3ebe-416e-a994-b74095b641e8",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "92eed6f0-9f98-4ac2-8a31-b309c795cea1",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

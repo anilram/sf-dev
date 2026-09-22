@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>object to store pairs of years and used templates for self service certificate generation.</description>
+    <fields>
+        <fullName>CRMforNonProfit__Email_Template__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Please insert API Name of the email template that will be used for self service email message.</inlineHelpText>
+        <label>Email Template</label>
+        <length>50</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__PDF_Template__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Please insert API Name of the pdf template that will be used for self service pdf document.</inlineHelpText>
+        <label>PDF Template</label>
+        <length>150</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Year__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Please add year... only numbers</inlineHelpText>
+        <label>Year</label>
+        <length>4</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Year and Template Assigment</label>
+    <pluralLabel>Year and Template Assigments</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

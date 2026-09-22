@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Package Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Package Logs</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>autorabit__Detail__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Endpoint__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Method__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Request_Body__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Response_Body__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Status_Code__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Type__c</name>
+        <picklistValues>
+            <masterLabel>Debug</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

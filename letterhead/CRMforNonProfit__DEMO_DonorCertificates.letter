@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letterhead xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <backgroundColor>#FFFFFF</backgroundColor>
+    <bodyColor>#FFFFFF</bodyColor>
+    <bottomLine>
+        <color>#FFFFFF</color>
+        <height>5</height>
+    </bottomLine>
+    <description>This is intended to be part of template distributed in the package as sample and also for apex test purpose.</description>
+    <footer>
+        <backgroundColor>#CCCCCC</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <verticalAlignment>Top</verticalAlignment>
+    </footer>
+    <header>
+        <backgroundColor>#CCCCCC</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <verticalAlignment>Top</verticalAlignment>
+    </header>
+    <middleLine>
+        <color>#FFFFFF</color>
+        <height>5</height>
+    </middleLine>
+    <name>(DEMO) DonorCertificates</name>
+    <topLine>
+        <color>#FFFFFF</color>
+        <height>5</height>
+    </topLine>
+</Letterhead>

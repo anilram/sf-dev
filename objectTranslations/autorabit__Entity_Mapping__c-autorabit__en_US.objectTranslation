@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Entity Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Entity Mappings</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>autorabit__Data_Direction__c</name>
+        <picklistValues>
+            <masterLabel>Inbound</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Field_Mapping_JSON__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__ISV_Entity__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Picklist_Value_Mapping_JSON__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__SF_Identifier_Field__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__SF_Identifier_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__SF_Object__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>autorabit__Static_Value_Mapping_JSON__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

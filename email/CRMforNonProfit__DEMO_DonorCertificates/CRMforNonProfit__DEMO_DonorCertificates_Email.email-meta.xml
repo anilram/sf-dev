@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template for internal apex class testing and also to help creation of final customer templates by consultants</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>CRMforNonProfit__DEMO_DonorCertificates</letterhead>
+    <name>(DEMO) DonorCertificates Email</name>
+    <style>freeForm</style>
+    <subject>DEMO Potvrzení o daru 2017</subject>
+    <textOnly>DEMO
+
+POTVRZENÍ O BEZÚPLATNÉM PŘÍJMU (DARU) ZA ROK 2017
+
+Potvrzení naleznete v přilozeném PDF souboru.
+
+Děkujeme Vám.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

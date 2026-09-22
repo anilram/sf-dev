@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Darujme_cz_Custom_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Darujme_cz_Project_ID__c</name>
+    </fields>
+    <fields>
+        <label>Predefinovaný typ transakcie</label>
+        <name>CRMforNonProfit__Default_Transaction_Type__c</name>
+        <picklistValues>
+            <masterLabel>dotace/grant</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>nepeněžní dar</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ostatní</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>peněžní dar</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>protiplnění</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>členský příspěvek</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Email_Template__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Nove_Project_Darujme_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__PosledniCisloClenaKampane__c</name>
+    </fields>
+    <fields>
+        <label>Špecifický Symbol</label>
+        <name>CRMforNonProfit__Specific_Symbol__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__TLF_Type__c</name>
+        <picklistValues>
+            <masterLabel>Acquisition</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross-Sell</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reactivation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Save</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Up-Sell</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Welcome</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Transakcie celkovo</label>
+        <name>CRMforNonProfit__Transactions_Total__c</name>
+    </fields>
+    <fields>
+        <label>Variabilné č.</label>
+        <name>CRMforNonProfit__Variable_No__c</name>
+    </fields>
+    <webLinks>
+        <label></label>
+        <name>CRMforNonProfit__Send_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>CRMforNonProfit__ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks>
+</CustomObjectTranslation>

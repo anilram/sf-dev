@@ -1,0 +1,43 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Lightning Out 2.0",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : { },
+          "definition" : "force:lightningOutLWRContainer",
+          "id" : "375eddd1-d4e7-4661-b5c8-fe2b91adcc06",
+          "type" : "component"
+        } ],
+        "id" : "04bf060e-9bcc-4295-97ce-4213395ea562",
+        "name" : "content",
+        "title" : "content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Lightning Out 2.0 Container",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "02360d21-9977-4b40-a09f-cdc8698519c7",
+          "type" : "component"
+        } ],
+        "id" : "c95743a5-714d-4c40-9c0f-b4d0b43b8ecc",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_lightningout:lightningOutPageLayout",
+      "id" : "c0f8bad2-ea7d-4e65-837e-162be8c6e504",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "LightningOutFullPage",
+    "viewType" : "lightningOut2"
+  },
+  "urlName" : "lightning-out-2-0"
+}

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CRMforNonProfit__API_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>API ID</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__API_Key__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Stejne jako API ID</inlineHelpText>
+        <label>API Key</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__API_Secret__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>API Secret</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Contact_Secondary_Email_API_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API Name of field on Contact which should be used for darujme transaction pairing</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API Name of field on Contact which should be used for darujme transaction pairing</inlineHelpText>
+        <label>Contact Secondary Email API Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__CreateContacts__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Create Contacts</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__CustomFieldsMapping__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Parovaci tabulka mezi custom atributem z DarujmeAPI a Salesforce Darujme_Pledge fieldem.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional - Zadejte parovaci tabulku mezi custom atributem z DarujmeAPI a Darujme_Pledge fieldem oddelenou :. Vice paru oddelte mezi sebou ;. Priklad: var_symb:fpack40__Custom_Fields__c;spec_symb:fpack40__Custom_Field5__c</inlineHelpText>
+        <label>CustomFieldsMapping</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Notification_email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Email addres for technical notifications about API callouts and processing</description>
+        <externalId>false</externalId>
+        <label>Notification email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Organization_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Toto ID je videt u darujme v linku v prohlizeci</inlineHelpText>
+        <label>Organization ID</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Project_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional - kdyz je zadan, tak stahuje z darujme pouze dany projekt</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional - kdyz je zadan, tak stahuje z darujme pouze dany projekt</inlineHelpText>
+        <label>Project ID</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Sync_Batch_Size__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Number of Pledges to be processed in one batch as future call. All Pledges processed in one batch if not set or zero.</description>
+        <externalId>false</externalId>
+        <label>Sync Batch Size</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Sync_Last_N_days__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Zde nastavíme kolik dní zpátky chceme synchronizovat – nastavíme na 1, v případě, že jsme posílání do Salesforce vypnuli dnes.</inlineHelpText>
+        <label>Sync Last N days</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Sync_Last_N_days_to__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Urcuje koncovy pocet dnu - tzn. pokud se v Sync Last N days da 4 a v tomto poli 2, tak to stahne transakce za D-4, D-3, D-2</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional - Urcuje koncovy pocet dnu - tzn. pokud se v Sync Last N days da 4 a v tomto poli 2, tak to stahne transakce za D-4, D-3, D-2</inlineHelpText>
+        <label>Sync Last N days To</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Darujme Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

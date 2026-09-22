@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmbeddedServiceLiveAgent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <embeddedServiceConfig>init_service_group</embeddedServiceConfig>
+    <embeddedServiceQuickActions>
+        <embeddedServiceLiveAgent>init_service_group</embeddedServiceLiveAgent>
+        <order>1</order>
+        <quickActionDefinition>Snapins_Case_OfflineCaseQuickAction_08hdM0000002IGz_1746427154559</quickActionDefinition>
+        <quickActionType>OfflineCase</quickActionType>
+    </embeddedServiceQuickActions>
+    <embeddedServiceQuickActions>
+        <embeddedServiceLiveAgent>init_service_group</embeddedServiceLiveAgent>
+        <order>1</order>
+        <quickActionDefinition>Snapins_Contact_PrechatQuickAction_08hdM0000002IGz_1746427155685</quickActionDefinition>
+        <quickActionType>Prechat</quickActionType>
+    </embeddedServiceQuickActions>
+    <enabled>true</enabled>
+    <fontSize>Medium</fontSize>
+    <isOfflineCaseEnabled>true</isOfflineCaseEnabled>
+    <isQueuePositionEnabled>false</isQueuePositionEnabled>
+    <liveChatButton>init_service_group</liveChatButton>
+    <liveChatDeployment>live_agent_setup_flow</liveChatDeployment>
+    <masterLabel>init service group</masterLabel>
+    <prechatEnabled>true</prechatEnabled>
+    <scenario>Basic</scenario>
+</EmbeddedServiceLiveAgent>

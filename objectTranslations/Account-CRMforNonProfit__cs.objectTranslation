@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Číslo účtu</label>
+        <name>CRMforNonProfit__Account_Num__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Average_Donation__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__DniMeziDary__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__DniOdPoslednihoDaru__c</name>
+    </fields>
+    <fields>
+        <label>Datum prvního firemního daru</label>
+        <name>CRMforNonProfit__First_Transaction_Date__c</name>
+    </fields>
+    <fields>
+        <label>IČO</label>
+        <name>CRMforNonProfit__ICO__c</name>
+    </fields>
+    <fields>
+        <label>DIČ</label>
+        <name>CRMforNonProfit__Tax_ID__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za 14 - 36 měsíců</label>
+        <name>CRMforNonProfit__Transaction_Amount_14_36__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za 14 měsíců</label>
+        <name>CRMforNonProfit__Transaction_Amount_14__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2008</label>
+        <name>CRMforNonProfit__Transaction_Amount_2008__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2009</label>
+        <name>CRMforNonProfit__Transaction_Amount_2009__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2010</label>
+        <name>CRMforNonProfit__Transaction_Amount_2010__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2011</label>
+        <name>CRMforNonProfit__Transaction_Amount_2011__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2012</label>
+        <name>CRMforNonProfit__Transaction_Amount_2012__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2013</label>
+        <name>CRMforNonProfit__Transaction_Amount_2013__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2014</label>
+        <name>CRMforNonProfit__Transaction_Amount_2014__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2015</label>
+        <name>CRMforNonProfit__Transaction_Amount_2015__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2016</label>
+        <name>CRMforNonProfit__Transaction_Amount_2016__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2017</label>
+        <name>CRMforNonProfit__Transaction_Amount_2017__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2018</label>
+        <name>CRMforNonProfit__Transaction_Amount_2018__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2019</label>
+        <name>CRMforNonProfit__Transaction_Amount_2019__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2020</label>
+        <name>CRMforNonProfit__Transaction_Amount_2020__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2021</label>
+        <name>CRMforNonProfit__Transaction_Amount_2021__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2022</label>
+        <name>CRMforNonProfit__Transaction_Amount_2022__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2023</label>
+        <name>CRMforNonProfit__Transaction_Amount_2023__c</name>
+    </fields>
+    <fields>
+        <label>Částka firemních darů za rok 2024</label>
+        <name>CRMforNonProfit__Transaction_Amount_2024__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za 14 - 36 měsíců</label>
+        <name>CRMforNonProfit__Transaction_Count_14_36__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za 14 měsíců</label>
+        <name>CRMforNonProfit__Transaction_Count_14__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2008</label>
+        <name>CRMforNonProfit__Transaction_Count_2008__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2009</label>
+        <name>CRMforNonProfit__Transaction_Count_2009__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2010</label>
+        <name>CRMforNonProfit__Transaction_Count_2010__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2011</label>
+        <name>CRMforNonProfit__Transaction_Count_2011__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2012</label>
+        <name>CRMforNonProfit__Transaction_Count_2012__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2013</label>
+        <name>CRMforNonProfit__Transaction_Count_2013__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2014</label>
+        <name>CRMforNonProfit__Transaction_Count_2014__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2015</label>
+        <name>CRMforNonProfit__Transaction_Count_2015__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2016</label>
+        <name>CRMforNonProfit__Transaction_Count_2016__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2017</label>
+        <name>CRMforNonProfit__Transaction_Count_2017__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2018</label>
+        <name>CRMforNonProfit__Transaction_Count_2018__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2019</label>
+        <name>CRMforNonProfit__Transaction_Count_2019__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2020</label>
+        <name>CRMforNonProfit__Transaction_Count_2020__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2021</label>
+        <name>CRMforNonProfit__Transaction_Count_2021__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2022</label>
+        <name>CRMforNonProfit__Transaction_Count_2022__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2023</label>
+        <name>CRMforNonProfit__Transaction_Count_2023__c</name>
+    </fields>
+    <fields>
+        <label>Počet firemních darů za rok 2024</label>
+        <name>CRMforNonProfit__Transaction_Count_2024__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__celkova_hodnota_finacni_dary__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__datum_posledni_kampane__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__datum_posledniho_financniho_daru__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__pocet_financnich_daru__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <webLinks>
+        <label></label>
+        <name>Billing</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Aqa_Package_XML_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Aqa Package XML label</shortDescription>
+        <value>AQA_Package_test</value>
+    </labels>
+    <labels>
+        <fullName>Submit_Button</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Submit Button</shortDescription>
+        <value>Submit!</value>
+    </labels>
+    <labels>
+        <fullName>VT_Test_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VT_Test_Label</shortDescription>
+        <value>Modified Value</value>
+    </labels>
+    <labels>
+        <fullName>demo_label</fullName>
+        <categories>&lt;!--demo--&gt;</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>demolabel&amp;quot;</shortDescription>
+        <value>Updated editor content and added comments to reflect review20251103_0646this is a demo label for comments test case</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Call_Attempt_Result__c</name>
+        <picklistValues>
+            <masterLabel>Call Attempt Failed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Attempt Success</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Attempts Limit Reached</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Number</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Call_Result__c</name>
+        <picklistValues>
+            <masterLabel>Call Later</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Later Limit Reached</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donor Already</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Decided</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One-Off Donation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Welcomed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Donation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Renewal</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Welcomed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Email_Status__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Locked__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Reject_Reason_Description__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Reject_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Doesn&apos;t want to</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Don&apos;t call</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Don&apos;t send emails</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Don&apos;t send emails &amp; Don&apos;t call</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No money</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other reason</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postponed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retired</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__TLF_Agent__c</name>
+        <picklistValues>
+            <masterLabel>Jméno agenta</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__TLF_Attempt_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__TLF_Last_Attempt__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Variabilné č.</label>
+        <name>CRMforNonProfit__Variable__c</name>
+    </fields>
+</CustomObjectTranslation>

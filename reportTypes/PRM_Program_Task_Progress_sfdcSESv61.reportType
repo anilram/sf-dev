@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject></baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Report on program items like exercises, milestones, and outcome progress. Overall program progress isn’t captured in this report.</description>
+    <label>Program Item Progress Summer &apos;24 (Partners)</label>
+    <sections>
+        <masterLabel>Enablement Program Task Progresses</masterLabel>
+    </sections>
+</ReportType>

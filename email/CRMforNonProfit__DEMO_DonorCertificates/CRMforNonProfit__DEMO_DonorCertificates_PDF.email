@@ -1,0 +1,31 @@
+<html>
+<head><style>body { font-family: Arial Unicode MS; font-size:70% }</style></head>
+<body style="padding:0 3em">
+
+<div class="text-align:center">
+DEMO
+</div>
+
+<br/>
+POTVRZENÍ O BEZÚPLATNÉM PŘÍJMU (DARU) ZA ROK 2017 <br/>
+<br/>
+Potvrzujeme tímto, že pan/paní <br/>
+<br/>
+{!Contact.FirstName} {!Contact.LastName} <br/>
+{!Contact.MailingStreet}, {!Contact.MailingPostalCode} {!Contact.MailingCity} <br/>
+<br/>
+daroval/a v roce 2017 finanční příspěvek v celkové výši <br/>
+<br/>
+{!Contact.CRMforNonProfit__Transaction_Amount_2017__c} <br/>
+na charitativní činnost. <br/>
+<br/>
+Velmi si ceníme Vaší důvěry podpořit naše projekty. <br/>
+<br/>
+{{transactions}}<br/>
+Poznámka : Výše uvedený seznam transakcí pochází z uživatelem vybraného roku (ne nutně 2017). Celková výše příspěvku pochází z pole pro rok 2017.
+<br/>
+
+<br/>
+V Praze dne {!Contact.CRMforNonProfit__Document_Creation_Date__c}
+</body>
+</html>

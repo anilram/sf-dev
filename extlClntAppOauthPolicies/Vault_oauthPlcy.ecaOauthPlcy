@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthConfigurablePolicies xmlns="http://soap.sforce.com/2006/04/metadata">
+    <clientCredentialsFlowUser>anilram.l@dev.com</clientCredentialsFlowUser>
+    <externalClientApplication>Vault</externalClientApplication>
+    <ipRelaxationPolicyType>Enforce</ipRelaxationPolicyType>
+    <isClientCredentialsFlowEnabled>true</isClientCredentialsFlowEnabled>
+    <isGuestCodeCredFlowEnabled>false</isGuestCodeCredFlowEnabled>
+    <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+    <label>Vault_oauthPlcy</label>
+    <permittedUsersPolicyType>AllSelfAuthorized</permittedUsersPolicyType>
+    <refreshTokenPolicyType>Infinite</refreshTokenPolicyType>
+    <requiredSessionLevel>STANDARD</requiredSessionLevel>
+</ExtlClntAppOauthConfigurablePolicies>

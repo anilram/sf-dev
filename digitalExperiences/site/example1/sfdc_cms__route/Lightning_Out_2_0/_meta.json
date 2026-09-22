@@ -1,0 +1,5 @@
+{
+  "apiName" : "Lightning_Out_2_0",
+  "type" : "sfdc_cms__route",
+  "path" : "routes"
+}

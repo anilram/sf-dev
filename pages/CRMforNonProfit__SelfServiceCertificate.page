@@ -1,0 +1,110 @@
+<apex:page showheader="false" applyhtmltag="false" applybodytag="false" controller="CRMforNonProfit.SelfServiceCertificateController">
+    <head>
+        <title>Self Service Certificate</title>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <apex:includeScript value="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" />
+    </head>
+
+    <script>
+        j$ = jQuery.noConflict();
+        j$(document).ready(function() {
+        });
+    </script>
+
+    <apex:slds />
+    
+    <div class="slds-scope pageBorder slds-align-middle">
+        <apex:form >
+            <apex:actionstatus id="status">
+                <apex:facet name="start">
+                    <div id="cover" style="background: rgba(0, 0, 0, 0.5); position:fixed; width:100%; height:100%; z-index:999; text-align:center; left:0">
+                        <div style="border:1px solid black; background-color:white; padding:2ex; margin:auto; width:36px; text-align:center; color:black; position:relative; top:40%;">
+                            <img style="float:left; width:32px" src="/img/loading32.gif" alt=""/>
+                            <div style="clear:both"/>
+                        </div>
+                    </div>
+                </apex:facet>
+
+            </apex:actionstatus>
+            <apex:outputPanel id="mainPage">
+                <apex:outputPanel rendered="{!(!finished)}">
+                    <div class="slds-page-header center">
+                        <h1 class="slds-page-header__title slds-truncate slds-align-middle">
+                            Získejte svůj certifikát!
+                        </h1>
+                    </div>
+                    <div class="slds-form-element slds-m-top_xx-small">
+                        <label class="slds-form-element__label" for="text-input-id-1">Prosím zadejte svůj email:</label>
+                        <div class="slds-form-element__control">
+                            <apex:inputText styleClass="slds-input email" maxlength="80" value="{!selectedEmail}" />
+                        </div>
+                    </div>
+                    <div class="slds-m-top_xx-small">
+                        <label class="slds-form-element__label" for="text-input-id-1">Prosím vyberte rok:</label>
+                        <apex:selectList multiselect="false" size="1" value="{!selectedYear}">
+                            <apex:selectOptions value="{!years}"/>
+                        </apex:selectList>
+                    </div>
+
+			        <div class="slds-form-element slds-m-top_xx-small">
+                        <label class="slds-form-element__label" for="text-input-id-1">Pokud potřebujete změnit jakékoli údaje, prosím, napište nám:</label>
+				        <div class="slds-form-element__control">
+					        <apex:inputTextArea styleClass="fullWidth" label="" rows="5" value="{!insertedNote}"/>
+				        </div>
+			        </div>	
+
+                    <div class="center">
+                        <apex:commandbutton styleclass="slds-button slds-button_neutral slds-m-top_xx-small disabled" action="{!checkCaptcha}" value="Pokračovat" id="theButton" reRender="mainPage, lastOutputToEverLive" status="status"/>
+                    </div>
+
+                    <div>
+                        <apex:outputpanel id="errorsId">
+                            <apex:pageMessage rendered="{!error != null}" severity="ERROR" strength="2" title="{!error}"></apex:pageMessage>
+                        </apex:outputpanel>
+                    </div>
+
+                    <apex:actionFunction action="{!clearError}" name="clearError" rerender="errorsId">
+                    </apex:actionFunction>
+                <script>
+                    j$('.email').prop('required', true);
+                    j$('.email').attr('type', 'email');
+                </script>
+                </apex:outputPanel>
+            </apex:outputPanel>
+
+            <div class="g-recaptcha slds-m-top_xx-small" data-sitekey="{!siteKey}" data-callback="clearError"></div>
+
+            <apex:outputPanel id="lastOutputToEverLive">
+                <apex:outputPanel rendered="{!(finished)}">
+                    <div class="slds-page-header center">
+                        <h1 class="slds-page-header__title slds-truncate slds-align-middle">
+                            Hotovo!
+                        </h1>
+                    </div>			    
+                    <div class="slds-form-element slds-m-top_xx-small">
+                        <label class="slds-form-element__label" for="text-input-id-1">Vaše operace byla úspěšně dokončena. Pokud jste zadali správnou emailovou adresu, bude Vám doručen email s certifikátem.</label>
+			        </div>
+                    <script>
+                         j$('.g-recaptcha').hide();
+                    </script>
+                </apex:outputPanel>
+            </apex:outputPanel>
+        </apex:form>
+    </div>
+
+    <style>
+        .pageBorder {
+            max-width: 20rem;
+            margin: 2rem auto;
+            margin-top: 1rem;
+        }   
+
+        .center {
+            text-align:center;
+        }
+
+        .fullWidth {
+            width: 100%;
+        }
+    </style>
+</apex:page>

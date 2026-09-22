@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>CRMforNonProfit__AccountTransactions__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Typy transakcí sčítaných na firmu</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>peněžní dar</fullName>
+                    <default>false</default>
+                    <label>peněžní dar</label>
+                </value>
+                <value>
+                    <fullName>nepeněžní dar</fullName>
+                    <default>false</default>
+                    <label>nepeněžní dar</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Account_Num_Blacklist__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Seznam ignorovaných čísel účtů, oddělených čárkou</description>
+        <label>Account Num. Blacklist</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Aggregate_Transactions_Data_In_Trigger__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable aggregation of transactions data in trigger (e.g. Account field - datum_posledniho_financniho_daru__c)</description>
+        <label>Aggregate Transactions Data In Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__CSAS_Account_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ČSAS číslo účtu pro načítání výpisů přes Databanking 24</description>
+        <externalId>false</externalId>
+        <label>ČSAS Číslo účtu (nepouzivat)</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__CSAS_Auth_Code_Link__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>&apos;https://bezpecnost.csas.cz/api/psd2/fl/oidc/v1/auth?redirect_uri=&apos; +  CRMforNonProfit__Redirect_URI_From_CMDT__c  + &apos;&amp;client_id=&apos; +  CRMforNonProfit__Client_Id_From_CMDT__c  + &apos;&amp;response_type=code&amp;access_type=offline&amp;scope=siblings.accounts&apos;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAS Auth Code Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__CSAS_Datum_Posledniho_Vypisu__c</fullName>
+        <deprecated>false</deprecated>
+        <description>(nepouzivat) ČSAS Datum posledního načtení výpisu přes Databanking 24</description>
+        <label>ČSAS Datum posledního načteného výpisu</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__CSAS_Password__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Heslo pro přístup k ČSAS Databanking 24</description>
+        <externalId>false</externalId>
+        <label>ČSAS Heslo (nepouzivat)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__CSAS_UserName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ČSAS Číslo klienta pro přístup k Databanking 24</description>
+        <externalId>false</externalId>
+        <label>ČSAS Číslo klienta (nepouzivat)</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__CSAS_WS__c</fullName>
+        <deprecated>false</deprecated>
+        <description>URL služby ČSAS Databanking 24</description>
+        <externalId>false</externalId>
+        <label>ČSAS WS (nepouzivat)</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Client_Id_From_CMDT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>$CustomMetadata.CRMforNonProfit__George_Settings__mdt.CRMforNonProfit__Integration_info.CRMforNonProfit__Client_Id__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Client Id From CMDT</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__ContactTransactions__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Typy transakcí sčítaných na kontaktu</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>peněžní dar</fullName>
+                    <default>false</default>
+                    <label>peněžní dar</label>
+                </value>
+                <value>
+                    <fullName>nepeněžní dar</fullName>
+                    <default>false</default>
+                    <label>nepeněžní dar</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__DefaultAccount__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>DefaultAccount</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>NNOSettings</relationshipLabel>
+        <relationshipName>NNOSettings</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__DefaultCampaign__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>DefaultCampaign</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>NNOSettings</relationshipLabel>
+        <relationshipName>NNOSettings</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__DefaultContact__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>DefaultContact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>NNOSettings</relationshipLabel>
+        <relationshipName>NNOSettings</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Default_Transaction_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Default Transaction Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>peněžní dar</fullName>
+                    <default>false</default>
+                    <label>peněžní dar</label>
+                </value>
+                <value>
+                    <fullName>nepeněžní dar</fullName>
+                    <default>false</default>
+                    <label>nepeněžní dar</label>
+                </value>
+                <value>
+                    <fullName>členský příspěvek</fullName>
+                    <default>false</default>
+                    <label>členský příspěvek</label>
+                </value>
+                <value>
+                    <fullName>dotace/grant</fullName>
+                    <default>false</default>
+                    <label>dotace/grant</label>
+                </value>
+                <value>
+                    <fullName>protiplnění</fullName>
+                    <default>false</default>
+                    <label>protiplnění</label>
+                </value>
+                <value>
+                    <fullName>ostatní</fullName>
+                    <default>false</default>
+                    <label>ostatní</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Disable_Outgoing_Transactions_Sync__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Disable Outgoing Transactions Sync</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__DoNotCheckCampaigns__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>No Transactions Check Campaign Delete</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__DoNotCheckContacts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <inlineHelpText>If true related transactions will not be checked during contacts deletion</inlineHelpText>
+        <label>No Transactions Check Contact Delete</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Enable_Email_Processing_Delay__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <inlineHelpText>Executes email processor with random delay (1-10 minutes) to avoid potential record lock issue.</inlineHelpText>
+        <label>Enable Email Processing Delay</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Eshopstatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>seznamem stavů, které se mají zpracovávat</description>
+        <inlineHelpText>seznamem stavů, které se mají zpracovávat</inlineHelpText>
+        <label>eshopStatusProcessed</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>pending</fullName>
+                    <default>false</default>
+                    <label>pending</label>
+                </value>
+                <value>
+                    <fullName>processing</fullName>
+                    <default>false</default>
+                    <label>processing</label>
+                </value>
+                <value>
+                    <fullName>on-hold</fullName>
+                    <default>false</default>
+                    <label>on-hold</label>
+                </value>
+                <value>
+                    <fullName>completed</fullName>
+                    <default>true</default>
+                    <label>completed</label>
+                </value>
+                <value>
+                    <fullName>cancelled</fullName>
+                    <default>false</default>
+                    <label>cancelled</label>
+                </value>
+                <value>
+                    <fullName>refunded</fullName>
+                    <default>false</default>
+                    <label>refunded</label>
+                </value>
+                <value>
+                    <fullName>failed</fullName>
+                    <default>false</default>
+                    <label>failed</label>
+                </value>
+                <value>
+                    <fullName>trash</fullName>
+                    <default>false</default>
+                    <label>trash</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__George_Auth_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>George Auth Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__InboundEmailReprocessErrors__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Error texts delimited by comma, that will be reprocessed by InboundEmailReprocess batch</description>
+        <label>Inbound Email Reprocess Errors</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__InboundEmailReprocessOutage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Max age (in days) of Inbound email to be reprocessed with InboundEmailReprocess batch</description>
+        <externalId>false</externalId>
+        <label>Inbound email reprocess outage</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Last_Transactions_Load_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Transactions Load</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Load_Only_Primary_Account__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Load Only Primary Account</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Moneta_API_token__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Moneta API token</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Moneta_Cisla_uctu__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Čísla účtů (s lomítkem a číslem banky) které se mají zpracovat, oddělená čárkou.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Čísla účtů (s lomítkem a číslem banky) které se mají zpracovat, oddělená čárkou.</inlineHelpText>
+        <label>Moneta Čísla účtů</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Moneta_Last_statement_load__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Moneta Datum posledního načteného výpisu</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Primary_Account_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Iban number</description>
+        <externalId>false</externalId>
+        <label>Primary Account Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Redirect_URI_From_CMDT__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>$CustomMetadata.CRMforNonProfit__George_Settings__mdt.CRMforNonProfit__Integration_info.CRMforNonProfit__Redirect_URI__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Redirect URI From CMDT</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Refresh_Token_Valid_To__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Refresh Token Valid To</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Refresh_Token__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Refresh Token</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Reminder_Admin_E_mail_Addresses__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated Email adresses for reminder e-mails</description>
+        <externalId>false</externalId>
+        <label>Reminder Admin E-mail Addresses</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__SumContactsOnAccount__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <inlineHelpText>zaškrtněte pokud chcete na firmě sečíst i dary navázaných kontaktů</inlineHelpText>
+        <label>Sčítat dary kontaktů na firmě</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Sync_Debet_Transactions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Sync Debet Transactions</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__Transactions_Load_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Transactions Load End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__VS_Generate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <inlineHelpText>Pokud je zaškrtnuto dochází k automatickému generování variabilního čísla členů kampaně (4 čísla z variabilního symbolu kampaně + 6 čísel pořadové čísla člena kampaně)</inlineHelpText>
+        <label>Generovat VS členů kampaně</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMforNonProfit__VS_Length__c</fullName>
+        <defaultValue>10</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>jak dlouhý variabilní symbol se má generovat na členovi kampaně</inlineHelpText>
+        <label>Délka VS</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>NNOSettings</label>
+    <listViews>
+        <fullName>CRMforNonProfit__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>NNOSettings Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>NNOSettings</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
