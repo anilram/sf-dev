@@ -1,0 +1,15 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "LLC_BI__Budget__c",
+        "LLC_BI__Budget_Line_Item__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__Budget__c",
+      "mandatoryObject": [],
+      "exclusionObject": []
+    }
+  ]
+}

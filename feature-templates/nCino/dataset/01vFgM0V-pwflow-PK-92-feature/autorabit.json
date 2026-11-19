@@ -1,0 +1,18 @@
+{
+  "packageDirectories" : {
+    "1.0" : {
+      "data" : {
+        "exclude" : { }
+      },
+      "metadata" : {
+        "Application Type" : null,
+        "type" : null,
+        "members" : null,
+        "exclude" : {
+          "CustomObject" : [ ]
+        }
+      }
+    }
+  },
+  "prefix" : "ncp"
+}

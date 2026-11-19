@@ -1,0 +1,34 @@
+[ {
+  "cirrefobjfieldmap" : null,
+  "destExtId" : null,
+  "destFields" : null,
+  "filter" : null,
+  "lookupobjfieldmap" : {
+    "LLC_BI__Budget__c" : "LLC_BI__Budget_Template__c",
+    "LLC_BI__Budget_Line_Item__c" : "LLC_BI__Budget__c"
+  },
+  "name" : "LLC_BI__Budget__c",
+  "objectsetnum" : 0,
+  "recordtypeidmap" : null,
+  "sortFields" : null,
+  "sortingfield" : null,
+  "srcExtId" : null,
+  "srcFields" : null,
+  "stdPriceBookId" : null,
+  "userlookupfields" : [ "createdbyid", "lastmodifiedbyid", "ownerid" ]
+}, {
+  "cirrefobjfieldmap" : null,
+  "destExtId" : null,
+  "destFields" : null,
+  "filter" : null,
+  "lookupobjfieldmap" : { },
+  "name" : "LLC_BI__Budget_Line_Item__c",
+  "objectsetnum" : 0,
+  "recordtypeidmap" : null,
+  "sortFields" : null,
+  "sortingfield" : null,
+  "srcExtId" : null,
+  "srcFields" : null,
+  "stdPriceBookId" : null,
+  "userlookupfields" : [ "createdbyid", "lastmodifiedbyid" ]
+} ]

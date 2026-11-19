@@ -1,0 +1,12 @@
+!!com.autorabit.arm.dto.featuremigration.vcstructure.ConfigManifest
+packageDirectories:
+  packagePaths:
+    dataset:
+      features:
+        01vFgM0V-pwflow-PK-92-feature:
+          path: dataset/01vFgM0V-pwflow-PK-92-feature
+          prefix: ncp
+          standardFeature: false
+          versions:
+            '1.0':
+              modifiedDate: '2026-11-19 17:37:15'
