@@ -1,4 +1,6 @@
 {
-  "name": "LLC_BI__Budget__c",
-  "query": "Select Id From LLC_BI__Budget__c LIMIT 3"
+  "filters" : null,
+  "limit" : null,
+  "name" : "LLC_BI__Budget__c",
+  "query" : "Select Id From LLC_BI__Budget__c LIMIT 3"
 }
